@@ -1,7 +1,7 @@
 import { Poppins } from "next/font/google";
 const Font = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["devanagari"],
+  subsets: ["latin"],
 });
 import Sidebar from "./Sidebar/sidebar";
 function Layout({ children }) {
